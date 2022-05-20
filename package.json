@@ -1,0 +1,27 @@
+{
+  "name": "wtd_board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx -c 'jest ---maxConcurrency=1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarfunk/wtd_board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarfunk/wtd_board/issues"
+  },
+  "homepage": "https://github.com/scarfunk/wtd_board#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "mysql2": "^2.3.3",
+    "sqlite3": "^5.0.8"
+  }
+}
